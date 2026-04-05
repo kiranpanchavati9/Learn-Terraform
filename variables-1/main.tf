@@ -71,3 +71,12 @@ variable "input_value1" {
 }
 
 variable "input_value" {}
+
+
+
+# Null
+
+variable "instance_type" {
+    type = string
+    default =  null
+}
