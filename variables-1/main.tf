@@ -22,3 +22,15 @@ variable "number" {
 output "number" {
     value = var.number
 }
+
+
+# Boolean
+
+variable "enabled" {
+    type = bool
+    default = true
+}
+
+output "enabled" {
+    value = var.enabled
+}
