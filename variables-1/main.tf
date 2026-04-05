@@ -3,6 +3,6 @@ variable "env" {
     default = "abc"
 }
 
-output "env output" {
+output "env" {
     value = var.env
 }
