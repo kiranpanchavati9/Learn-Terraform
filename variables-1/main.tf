@@ -45,3 +45,7 @@ variable "availability_zones" {
 output "availability_zones" {
     value = var.availability_zones
 }
+
+output "availability_zones_1" {
+    value = var.availability_zones[0]
+}
