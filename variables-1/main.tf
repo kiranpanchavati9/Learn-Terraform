@@ -34,3 +34,14 @@ variable "enabled" {
 output "enabled" {
     value = var.enabled
 }
+
+# List
+
+variable "availability_zones" {
+    type = list
+    default = ["bangalore", "newyork", "sydney"]
+}
+
+output "availability_zones" {
+    value = var.availability_zones
+}
