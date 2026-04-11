@@ -43,7 +43,7 @@ output "Is_this_the_correct_answer" {
 ## List
 
 variable "availability_zones" {
-  type = list
+  type = list(string)
   default = ["bangalore", "dubai", "london"]
 }
 
@@ -54,4 +54,21 @@ output "aws_availability_zones" {
 output "aws_availability_zones_first_value" {
   value = var.availability_zones[0]
 }
+
+
+## Map
+
+variable "image_ids" {
+  type = map(string)
+  default = {
+    a = "100"
+    b = "xyz"
+  }
+}
+
+output "available_image_ids" {
+  value = var.image_ids
+}
+
+
 
