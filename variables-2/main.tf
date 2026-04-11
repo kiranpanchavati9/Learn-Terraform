@@ -39,3 +39,15 @@ variable "booleanvar" {
 output "Is_this_the_correct_answer" {
   value = var.booleanvar
 }
+
+## List
+
+variable "availability_zones" {
+  type = list
+  default = ["bangalore", "dubai", "london"]
+}
+
+output "aws_availability_zones" {
+  value = var.availability_zones
+}
+
