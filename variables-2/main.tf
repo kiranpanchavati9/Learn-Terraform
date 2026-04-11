@@ -74,5 +74,9 @@ output "available_image_ids_1" {
   value = var.image_ids["a"]
 }
 
+output "available_image_ids_2" {
+  value = var.image_ids["b"]
+}
+
 
 
