@@ -27,3 +27,15 @@ output "Number_of_instance"{
 output "Contact_Number_Kiran" {
   value = "${var.instance_count}-1234"
 }
+
+
+## Boolean
+
+variable "booleanvar" {
+  type = bool
+  default = true
+}
+
+output "Is_this_the_correct_answer" {
+  value = var.booleanvar
+}
