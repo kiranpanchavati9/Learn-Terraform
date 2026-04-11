@@ -3,7 +3,13 @@ variable "env" {
   default = "abc"
 }
 
-output "name" {
+output "env" {
   value = var.env
 }
+
+output "enva" {
+  value = "${var.env}001"
+}
+
+
 
