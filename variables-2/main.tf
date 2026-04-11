@@ -23,3 +23,7 @@ variable "instance_count" {
 output "Number_of_instance"{
   value = "${var.instance_count}"
 }
+
+output "Contact_Number_Kiran" {
+  value = "${var.instance_count}-1234"
+}
