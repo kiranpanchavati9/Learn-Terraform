@@ -55,4 +55,3 @@ output "aws_availability_zones_first_value" {
   value = var.availability_zones[0]
 }
 
-
