@@ -106,3 +106,4 @@ variable "instance_type" {
 output "instance_nothing" {
   value = var.instance_type
 }
+
