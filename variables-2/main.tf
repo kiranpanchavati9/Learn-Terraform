@@ -95,3 +95,14 @@ variable "input_value2" {}
 output "enter_the_input_value_2" {
   value = var.input_value2
 }
+
+## Null
+
+variable "instance_type" {
+  type = string
+  default = null
+}
+
+output "instance_nothing" {
+  value = var.instance_type
+}
