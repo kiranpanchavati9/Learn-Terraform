@@ -85,5 +85,13 @@ variable "input_value1" {
   type = number
 }
 
+output "enter_the_input_value_1" {
+  value = var.input_value1
+}
+
+
 variable "input_value2" {}
 
+output "enter_the_input_value_2" {
+  value = var.input_value2
+}
