@@ -51,3 +51,8 @@ output "aws_availability_zones" {
   value = var.availability_zones
 }
 
+output "aws_availability_zones_first_value" {
+  value = var.availability_zones[0]
+}
+
+
